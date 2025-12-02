@@ -1,0 +1,27 @@
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.apskritimas {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: white;
+  text-transform: uppercase;
+  transition: transform 10ms ease;
+}
+
+.apskritimas:hover {
+  transform: translateY(-10px);
+}

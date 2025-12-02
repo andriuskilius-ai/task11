@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.square {
+  width: 200px;
+  height: 200px;
+
+  animation-name: kvadratas;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes kvadratas {
+  0% {
+    background-color: aqua;
+  }
+
+  50% {
+    background-color: bisque;
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
